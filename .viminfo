@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sock.close
+~MSle0~/Plugin
 
 # Last Substitute Search Pattern:
 ~MSle0&"
@@ -20,16 +20,40 @@
 $'
 
 # Command Line History (newest to oldest):
+:qa!
+|2,0,1591478193,,"qa!"
 :q
-|2,0,1591474674,,"q"
-:wq
-|2,0,1591474669,,"wq"
-:w
-|2,0,1591472656,,"w"
-:source %
-|2,0,1591472378,,"source %"
+|2,0,1591478067,,"q"
 :PluginInstall
-|2,0,1591472369,,"PluginInstall"
+|2,0,1591478057,,"PluginInstall"
+:source %
+|2,0,1591478054,,"source %"
+:w
+|2,0,1591478050,,"w"
+:close
+|2,0,1591477578,,"close"
+:wq
+|2,0,1591477517,,"wq"
+:windo CommandTHistoryc
+|2,0,1591477437,,"windo CommandTHistoryc"
+:q!
+|2,0,1591476772,,"q!"
+:let g:NERDTreeWinSize=100
+|2,0,1591476597,,"let g:NERDTreeWinSize=100"
+:let g:NERDTreeWinSize=10
+|2,0,1591476592,,"let g:NERDTreeWinSize=10"
+:let g:NERDTreeWinSize=15
+|2,0,1591476572,,"let g:NERDTreeWinSize=15"
+:let g:NERDTreeWinSize=30
+|2,0,1591476567,,"let g:NERDTreeWinSize=30"
+:let g:NERDTreeMapCust
+|2,0,1591476552,,"let g:NERDTreeMapCust"
+:wincmd h
+|2,0,1591476244,,"wincmd h"
+:wincmd l
+|2,0,1591476231,,"wincmd l"
+:Q
+|2,0,1591476069,,"Q"
 :%s/"/'
 |2,0,1591472124,,"%s/\"/'"
 :%s/client/db
@@ -64,14 +88,18 @@ $'
 |2,0,1591463376,,"colorscheme"
 :PluginInsta
 |2,0,1591462487,,"PluginInsta"
-:q!
-|2,0,1591460991,,"q!"
 :gru
 |2,0,1591460988,,"gru"
-:Q
-|2,0,1591371855,,"Q"
 
 # Search String History (newest to oldest):
+?/Plugin
+|2,1,1591478044,47,"Plugin"
+??go
+|2,1,1591477708,63,"go"
+?/Up
+|2,1,1591477113,47,"Up"
+?/map
+|2,1,1591476431,47,"map"
 ?/sock.close
 |2,1,1591472497,47,"sock.close"
 ?/jedi
@@ -88,8 +116,6 @@ $'
 |2,1,1591471742,47,"sockets"
 ? readables
 |2,1,1591471728,,"readables"
-?/Plugin
-|2,1,1591470649,47,"Plugin"
 ?/client_data
 |2,1,1591470352,47,"client_data"
 ?/def Settings
@@ -119,322 +145,388 @@ $'
 
 # Registers:
 "0	LINE	0
-	Plugin 'file:///home/gmarik/path/to/plugin'
-|3,0,0,1,1,0,1591372357,"Plugin 'file:///home/gmarik/path/to/plugin'"
+	nmap <silent> <A-Right> :wincmd l<CR>
+|3,0,0,1,1,0,1591477000,"nmap <silent> <A-Right> :wincmd l<CR>"
 ""1	LINE	0
-	dd
-|3,1,1,1,1,0,1591472589,"dd"
+	    ""
+|3,1,1,1,1,0,1591478192,"    \"\""
 "2	LINE	0
-	                    )
-|3,0,2,1,1,0,1591472300,"                    )"
+	    for dd 
+|3,0,2,1,1,0,1591478169,"    for dd "
 "3	LINE	0
-	                        i++
-|3,0,3,1,1,0,1591472191,"                        i++"
+	nmap <silent> <A-Left> :wincmd h<CR>
+	nmap <silent> <A-Right> :wincmd l<CR>
+	nmap <silent> <A-Up> :wincmd j<CR>
+	nmap <silent> <A-Down> :wincmd j<CR>
+|3,0,3,1,4,0,1591477508,"nmap <silent> <A-Left> :wincmd h<CR>","nmap <silent> <A-Right> :wincmd l<CR>","nmap <silent> <A-Up> :wincmd j<CR>","nmap <silent> <A-Down> :wincmd j<CR>"
 "4	LINE	0
-	while True:
-	    r, _, _ = select.select(sockets, [], [])
-|3,0,4,1,2,0,1591471877,"while True:","    r, _, _ = select.select(sockets, [], [])"
+	nnoremap <C-W> :tabclose<CR>
+	
+|3,0,4,1,2,0,1591477499,"nnoremap <C-W> :tabclose<CR>",""
 "5	LINE	0
-	    # db, addr = s.accept()
-	    # while True:
-	    #     content = db.recv(32)
-	
-	    #     if len(content) == 0:
-	    #         break
-	    #     else:
-	    #         print(content)
-	
-	    # print("Closing..")
-	    # db.close()
-	
-|3,0,5,1,12,0,1591471876,"    # db, addr = s.accept()","    # while True:","    #     content = db.recv(32)","","    #     if len(content) == 0:","    #         break","    #     else:","    #         print(content)","","    # print(\"Closing..\")","    # db.close()",""
+	nmap <silent> <A-Left> :wincmd h<CR>
+	nmap <silent> <A-Right> :wincmd l<CR>
+	nmap <silent> <A-Up> :wincmd j<CR>
+	nmap <silent> <A-Down> :wincmd j<CR>
+|3,0,5,1,4,0,1591477498,"nmap <silent> <A-Left> :wincmd h<CR>","nmap <silent> <A-Right> :wincmd l<CR>","nmap <silent> <A-Up> :wincmd j<CR>","nmap <silent> <A-Down> :wincmd j<CR>"
 "6	LINE	0
-	            else:
-|3,0,6,1,1,0,1591471825,"            else:"
+			it->secon
+|3,0,6,1,1,0,1591476467,"		it->secon"
 "7	LINE	0
-	:w
-|3,0,7,1,1,0,1591470736,":w"
+	nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
+	nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
+|3,0,7,1,2,0,1591476288,"nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>","nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>"
 "8	LINE	0
-	Plugin 'davidhalter/jedi-vim'
-|3,0,8,1,1,0,1591470697,"Plugin 'davidhalter/jedi-vim'"
+	nnoremap <C-E> <
+|3,0,8,1,1,0,1591476173,"nnoremap <C-E> <"
 "9	LINE	0
-	import time
-|3,0,9,1,1,0,1591470501,"import time"
+	dd
+|3,0,9,1,1,0,1591472589,"dd"
 "q	CHAR	0
 	
 |3,0,26,0,1,0,1591472743,""
 "-	CHAR	0
-	t
-|3,0,36,0,1,0,1591472257,"t"
+	k
+|3,0,36,0,1,0,1591477295,"k"
 
 # File marks:
-'0  1  0  ~/.vimrc
-|4,48,1,0,1591474674,"~/.vimrc"
-'1  13  35  ~/.bash_aliases
-|4,49,13,35,1591474669,"~/.bash_aliases"
-'2  1  0  ~/.vimrc
-|4,50,1,0,1591474642,"~/.vimrc"
-'3  12  23  ~/.bash_aliases
-|4,51,12,23,1591474390,"~/.bash_aliases"
-'4  12  23  ~/.bash_aliases
-|4,52,12,23,1591474390,"~/.bash_aliases"
-'5  99  0  ~/.zshrc
-|4,53,99,0,1591473980,"~/.zshrc"
-'6  1  0  ~/Downloads/.zshrc
-|4,54,1,0,1591473970,"~/Downloads/.zshrc"
-'7  1  0  ~/Downloads/.zshr
-|4,55,1,0,1591473967,"~/Downloads/.zshr"
-'8  1  0  ~/workspace/racheta/test.py
-|4,56,1,0,1591472744,"~/workspace/racheta/test.py"
-'9  74  17  ~/workspace/racheta/test.py
-|4,57,74,17,1591472736,"~/workspace/racheta/test.py"
+'0  44  4  ~/workspace/pc-tema2/server.cpp
+|4,48,44,4,1591478193,"~/workspace/pc-tema2/server.cpp"
+'1  70  28  ~/.vimrc
+|4,49,70,28,1591478067,"~/.vimrc"
+'2  29  0  ~/workspace/pc-tema2/client.cpp
+|4,50,29,0,1591478023,"~/workspace/pc-tema2/client.cpp"
+'3  1  0  ~/workspace/pc-tema2/server.cpp
+|4,51,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+'4  1  0  ~/workspace/pc-tema2/server.cpp
+|4,52,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+'5  1  0  ~/workspace/pc-tema2/server.cpp
+|4,53,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+'6  1  0  ~/workspace/pc-tema2/server.cpp
+|4,54,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+'7  1  0  ~/workspace/intro.txt
+|4,55,1,0,1591477529,"~/workspace/intro.txt"
+'8  1  0  ~/workspace/NERD_tree_1
+|4,56,1,0,1591477109,"~/workspace/NERD_tree_1"
+'9  1  0  ~/workspace/NERD_tree_1
+|4,57,1,0,1591477109,"~/workspace/NERD_tree_1"
 
 # Jumplist (newest first):
+-'  44  4  ~/workspace/pc-tema2/server.cpp
+|4,39,44,4,1591478193,"~/workspace/pc-tema2/server.cpp"
+-'  43  0  ~/workspace/pc-tema2/server.cpp
+|4,39,43,0,1591478157,"~/workspace/pc-tema2/server.cpp"
+-'  50  0  ~/workspace/pc-tema2/server.cpp
+|4,39,50,0,1591478119,"~/workspace/pc-tema2/server.cpp"
+-'  42  0  ~/workspace/pc-tema2/server.cpp
+|4,39,42,0,1591478117,"~/workspace/pc-tema2/server.cpp"
+-'  51  4  ~/workspace/pc-tema2/server.cpp
+|4,39,51,4,1591478116,"~/workspace/pc-tema2/server.cpp"
+-'  1  0  ~/workspace/pc-tema2/server.cpp
+|4,39,1,0,1591478069,"~/workspace/pc-tema2/server.cpp"
+-'  70  28  ~/.vimrc
+|4,39,70,28,1591478067,"~/.vimrc"
+-'  70  28  ~/.vimrc
+|4,39,70,28,1591478067,"~/.vimrc"
+-'  69  0  ~/.vimrc
+|4,39,69,0,1591478046,"~/.vimrc"
+-'  81  3  ~/.vimrc
+|4,39,81,3,1591478046,"~/.vimrc"
+-'  82  3  ~/.vimrc
+|4,39,82,3,1591478046,"~/.vimrc"
+-'  69  0  ~/.vimrc
+|4,39,69,0,1591478046,"~/.vimrc"
+-'  81  3  ~/.vimrc
+|4,39,81,3,1591478046,"~/.vimrc"
+-'  82  3  ~/.vimrc
+|4,39,82,3,1591478046,"~/.vimrc"
+-'  83  3  ~/.vimrc
+|4,39,83,3,1591478045,"~/.vimrc"
+-'  84  3  ~/.vimrc
+|4,39,84,3,1591478045,"~/.vimrc"
+-'  83  3  ~/.vimrc
+|4,39,83,3,1591478045,"~/.vimrc"
+-'  84  3  ~/.vimrc
+|4,39,84,3,1591478045,"~/.vimrc"
+-'  87  15  ~/.vimrc
+|4,39,87,15,1591478044,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1591478044,"~/.vimrc"
+-'  26  24  ~/.vimrc
+|4,39,26,24,1591478044,"~/.vimrc"
+-'  87  15  ~/.vimrc
+|4,39,87,15,1591478044,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1591478044,"~/.vimrc"
+-'  26  24  ~/.vimrc
+|4,39,26,24,1591478044,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1591474674,"~/.vimrc"
--'  13  35  ~/.bash_aliases
-|4,39,13,35,1591474669,"~/.bash_aliases"
--'  13  35  ~/.bash_aliases
-|4,39,13,35,1591474669,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474652,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474652,"~/.bash_aliases"
+|4,39,1,0,1591478025,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1591474642,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1591474642,"~/.vimrc"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
+|4,39,1,0,1591478025,"~/.vimrc"
+-'  29  0  ~/workspace/pc-tema2/client.cpp
+|4,39,29,0,1591478023,"~/workspace/pc-tema2/client.cpp"
+-'  29  0  ~/workspace/pc-tema2/client.cpp
+|4,39,29,0,1591478023,"~/workspace/pc-tema2/client.cpp"
+-'  29  0  ~/workspace/pc-tema2/client.cpp
+|4,39,29,0,1591478023,"~/workspace/pc-tema2/client.cpp"
+-'  29  0  ~/workspace/pc-tema2/client.cpp
+|4,39,29,0,1591478023,"~/workspace/pc-tema2/client.cpp"
+-'  22  0  ~/workspace/pc-tema2/client.cpp
+|4,39,22,0,1591477772,"~/workspace/pc-tema2/client.cpp"
+-'  22  0  ~/workspace/pc-tema2/client.cpp
+|4,39,22,0,1591477772,"~/workspace/pc-tema2/client.cpp"
+-'  22  0  ~/workspace/pc-tema2/client.cpp
+|4,39,22,0,1591477772,"~/workspace/pc-tema2/client.cpp"
+-'  22  0  ~/workspace/pc-tema2/client.cpp
+|4,39,22,0,1591477772,"~/workspace/pc-tema2/client.cpp"
+-'  8  0  ~/workspace/pc-tema2/client.cpp
+|4,39,8,0,1591477770,"~/workspace/pc-tema2/client.cpp"
+-'  8  0  ~/workspace/pc-tema2/client.cpp
+|4,39,8,0,1591477770,"~/workspace/pc-tema2/client.cpp"
+-'  8  0  ~/workspace/pc-tema2/client.cpp
+|4,39,8,0,1591477770,"~/workspace/pc-tema2/client.cpp"
+-'  8  0  ~/workspace/pc-tema2/client.cpp
+|4,39,8,0,1591477770,"~/workspace/pc-tema2/client.cpp"
+-'  6  0  ~/workspace/pc-tema2/client.cpp
+|4,39,6,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  4  0  ~/workspace/pc-tema2/client.cpp
+|4,39,4,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  6  0  ~/workspace/pc-tema2/client.cpp
+|4,39,6,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  4  0  ~/workspace/pc-tema2/client.cpp
+|4,39,4,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  6  0  ~/workspace/pc-tema2/client.cpp
+|4,39,6,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  4  0  ~/workspace/pc-tema2/client.cpp
+|4,39,4,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  6  0  ~/workspace/pc-tema2/client.cpp
+|4,39,6,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  4  0  ~/workspace/pc-tema2/client.cpp
+|4,39,4,0,1591477766,"~/workspace/pc-tema2/client.cpp"
+-'  1  0  ~/workspace/pc-tema2/client.cpp
+|4,39,1,0,1591477765,"~/workspace/pc-tema2/client.cpp"
+-'  1  0  ~/workspace/pc-tema2/client.cpp
+|4,39,1,0,1591477765,"~/workspace/pc-tema2/client.cpp"
+-'  1  0  ~/workspace/pc-tema2/client.cpp
+|4,39,1,0,1591477765,"~/workspace/pc-tema2/client.cpp"
+-'  1  0  ~/workspace/pc-tema2/client.cpp
+|4,39,1,0,1591477765,"~/workspace/pc-tema2/client.cpp"
+-'  7  0  ~/workspace/pc-tema2/client.cpp
+|4,39,7,0,1591477756,"~/workspace/pc-tema2/client.cpp"
+-'  7  0  ~/workspace/pc-tema2/client.cpp
+|4,39,7,0,1591477756,"~/workspace/pc-tema2/client.cpp"
+-'  7  0  ~/workspace/pc-tema2/client.cpp
+|4,39,7,0,1591477756,"~/workspace/pc-tema2/client.cpp"
+-'  7  0  ~/workspace/pc-tema2/client.cpp
+|4,39,7,0,1591477756,"~/workspace/pc-tema2/client.cpp"
+-'  1  0  zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README
+|4,39,1,0,1591477750,"zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README"
+-'  1  0  zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README
+|4,39,1,0,1591477750,"zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README"
+-'  1  0  zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README
+|4,39,1,0,1591477750,"zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README"
+-'  1  0  zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README
+|4,39,1,0,1591477750,"zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README"
+-'  13  0  ~/workspace/pc-tema2/321cd_dan_duta.zip
+|4,39,13,0,1591477744,"~/workspace/pc-tema2/321cd_dan_duta.zip"
+-'  7  12  ~/workspace/pc-tema2/server.cpp
+|4,39,7,12,1591477744,"~/workspace/pc-tema2/server.cpp"
+-'  13  0  ~/workspace/pc-tema2/321cd_dan_duta.zip
+|4,39,13,0,1591477744,"~/workspace/pc-tema2/321cd_dan_duta.zip"
+-'  13  0  ~/workspace/pc-tema2/321cd_dan_duta.zip
+|4,39,13,0,1591477744,"~/workspace/pc-tema2/321cd_dan_duta.zip"
+-'  7  12  ~/workspace/pc-tema2/server.cpp
+|4,39,7,12,1591477744,"~/workspace/pc-tema2/server.cpp"
+-'  13  0  ~/workspace/pc-tema2/321cd_dan_duta.zip
+|4,39,13,0,1591477744,"~/workspace/pc-tema2/321cd_dan_duta.zip"
+-'  7  12  ~/workspace/pc-tema2/server.cpp
+|4,39,7,12,1591477744,"~/workspace/pc-tema2/server.cpp"
+-'  1  0  ~/workspace/pc-tema2/server.cpp
+|4,39,1,0,1591477708,"~/workspace/pc-tema2/server.cpp"
+-'  1  0  ~/workspace/pc-tema2/server.cpp
+|4,39,1,0,1591477708,"~/workspace/pc-tema2/server.cpp"
+-'  1  0  ~/workspace/pc-tema2/message.cpp
+|4,39,1,0,1591477703,"~/workspace/pc-tema2/message.cpp"
+-'  1  0  ~/workspace/pc-tema2/message.cpp
+|4,39,1,0,1591477703,"~/workspace/pc-tema2/message.cpp"
+-'  1  0  ~/workspace/pc-tema2/message.cpp
+|4,39,1,0,1591477703,"~/workspace/pc-tema2/message.cpp"
+-'  1  0  ~/workspace/pc-tema2/message.cpp
+|4,39,1,0,1591477703,"~/workspace/pc-tema2/message.cpp"
+-'  1  0  ~/workspace/pc-tema2/server.cpp
+|4,39,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+-'  1  0  ~/workspace/pc-tema2/server.cpp
+|4,39,1,0,1591477666,"~/workspace/pc-tema2/server.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  9  0  ~/workspace/pc-tema2/message.cpp
+|4,39,9,0,1591477659,"~/workspace/pc-tema2/message.cpp"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/intro.txt
+|4,39,1,0,1591477529,"~/workspace/intro.txt"
+-'  1  0  ~/workspace/cum sa te apuci.txt
+|4,39,1,0,1591477167,"~/workspace/cum sa te apuci.txt"
+-'  1  0  ~/workspace/cum sa te apuci.txt
+|4,39,1,0,1591477167,"~/workspace/cum sa te apuci.txt"
+-'  1  0  ~/workspace/cum sa te apuci.txt
+|4,39,1,0,1591477167,"~/workspace/cum sa te apuci.txt"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/pc-tema2/server.cpp
+	*	1591478192	0
+	"	44	4
+	.	44	0
+	+	258	0
+	+	266	0
+	+	267	0
+	+	43	12
+	+	43	0
+	+	44	0
+
 > ~/.vimrc
-	*	1591474673	0
-	"	1	0
-	^	63	2
-	.	63	1
-	+	80	42
-	+	50	0
-	+	58	30
+	*	1591478061	0
+	"	70	28
+	^	70	29
+	.	71	0
+	+	87	42
+	+	55	0
+	+	63	30
 	+	11	14
 	+	10	9
 	+	24	61
 	+	12	12
-	+	59	22
+	+	64	22
 	+	4	18
-	+	60	27
-	+	61	5
-	+	62	0
-	+	26	8
+	+	65	27
+	+	66	5
+	+	67	0
+	+	28	8
 	+	4	0
-	+	69	0
-	+	66	0
-	+	69	0
-	+	66	0
-	+	69	0
-	+	35	0
+	+	76	0
+	+	73	0
+	+	76	0
+	+	73	0
+	+	76	0
+	+	40	0
 	+	15	8
-	+	69	19
-	+	34	13
-	+	69	0
+	+	76	19
+	+	39	13
+	+	76	0
 	+	4	18
 	+	16	18
 	+	4	0
-	+	67	0
-	+	68	0
-	+	33	0
-	+	26	7
-	+	32	27
+	+	74	0
+	+	75	0
+	+	39	0
+	+	28	7
+	+	39	27
 	+	24	0
 	+	18	52
-	+	64	0
-	+	63	1
-	a	26	0
+	+	71	0
+	+	68	1
+	+	39	0
+	+	39	36
+	+	69	40
+	+	39	0
+	+	39	18
+	+	39	20
+	+	39	29
+	+	39	31
+	+	39	0
+	+	33	0
+	+	37	37
+	+	26	24
+	+	71	0
+	a	28	0
+
+> ~/workspace/pc-tema2/client.cpp
+	*	1591478022	0
+	"	29	0
+
+> ~/workspace/NERD_tree_1
+	*	1591477750	0
+	"	104	0
+	.	1	0
+	+	1	0
+
+> zipfile:/home/danilao/workspace/pc-tema2/321cd_dan_duta.zip::README
+	*	1591477747	0
+	"	1	0
+
+> ~/workspace/pc-tema2/321cd_dan_duta.zip
+	*	1591477744	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/pc-tema2/message.cpp
+	*	1591477697	0
+	"	1	0
+
+> ~/workspace/intro.txt
+	*	1591477528	0
+	"	1	0
+
+> ~/workspace/cum sa te apuci.txt
+	*	1591477525	0
+	"	12	0
+
+> pc-tema2/server.cpp
+	*	1591476866	0
+	"	1	0
+
+> ~/workspace/pc-tema2/include/client.h
+	*	1591476085	0
+	"	1	0
+
+> ~/workspace/NERD_tree_2
+	*	1591476069	0
+	"	9	0
+	.	1	0
+	+	1	0
 
 > ~/.bash_aliases
 	*	1591474668	0

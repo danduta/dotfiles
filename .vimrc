@@ -23,13 +23,18 @@ let g:ycm_extra_conf_vim_data = [
   \]
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
+let g:AutoPairsFlyMode = 1
+
 nmap <F2> :NERDTreeToggle<CR>
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
-nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
-nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 nnoremap <C-W> :tabclose<CR>
+
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
 
 call vundle#rc()
 " alternatively, pass a path where Vundle should install plugins
@@ -61,6 +66,8 @@ Plugin 'preservim/nerdtree'
 Plugin 'sainnhe/gruvbox-material'
 Plugin 'itchyny/lightline.vim'
 " Plugin 'davidhalter/jedi-vim'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()            " required
 
