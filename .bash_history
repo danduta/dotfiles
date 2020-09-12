@@ -1466,73 +1466,441 @@ ls -l .*
 cd pc-practic/
 ls
 ./client 238 127.0.0.1 12345
+ping 192.168.1.229
+scp
+scp danilao@192.168.1.229:/home/danilao/.bash* .
+source .bash_rc
+source ./.bash_rc
+source ./.bashrc
 ls
-ifconfig
-service --status-all
-service ssh
-systemctl status sssd.service 
-ssh
-sudo apt-install openssh-server
-sudo apt-get install openssh-server
-google-chrome
-ifconfig
-ping 192.168.1.240
-scp danilao@192.168.1.240:/home/danilao/.vim*
-scp danilao@192.168.1.240:/home/danilao/.vimrc
-scp 192.168.1.240:/home/danilao/.vimrc
-scp 192.168.1.240
-scp 192.168.1.240:/home/danilao/.vimrc
-scp danilao@192.168.1.240:/home/danilao/.vim* .
-scp -r danilao@192.168.1.240:/home/danilao/.vim/* ~/.vim
+ll
+ssh 192.168.1.229
+sudo apt-get install chrome
+sudo apt-get install google-chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb 
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb -f
+sudo apt install ./google-chrome-stable_current_amd64.deb 
+sudo apt install ./google-chrome-stable_current_amd64.deb --fix-broken-install
+sudo apt install ./google-chrome-stable_current_amd64.deb --install
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb --install
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb
+epiphany
+sudo htop
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb
+ssudo lshw -C display
+sudo lshw -C display
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+nvidia-smi
+prime-select query
+prime-select nvidia
+sudo prime-select nvidia1
+sudo prime-select nvidia
+sudo reboot
+nvidia-smi
+sudo dpkg -i Downloads/code_1.45.1-1589445302_amd64.deb 
+code
+git config --global user.name 'Dan Duta'
+sudo apt install git -y
+git config --global user.name 'Dan Duta'
+git config --global user.email 'danduta23@gmail.com'
+git config --global credential.helper store
 ls
-vim .vimrc
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+rm google-chrome-stable_current_amd64.deb 
 ls
-ls -la
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-sudo git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+rm Music
+rmdir Music
+rmdir Templates
+ls
+rmdir Public
+ls
+rmdir Videos
+rmdir Documents
+ls
+mkdir workspace
+cd workspace/
+git clone git://github.com/danduta/router.git
+git clone https://github.com/danduta/router.git
+ls
+cd router/
+code .
+cd ..ls
+cd ..
+git clone https://github.com/danduta/scripts.git
+cd scripts/
+ssh pi@192.168.1.170
+ls
+cd .
+cd ..
+ls
+git clone https://github.com/danduta/messages.git
+cd messages
+ll
+code .
+g++
+gcc
+python3
+python
+cat ~/.bash_aliases 
+cat "alias py=\"python\"" >> ~/.bash_aliases
+echo "alias py=\"python\"" >> ~/.bash_aliases
+echo "alias py3=\"python3\"" >> ~/.bash_aliases
+source ~/.bash_aliases
+py
+py3
+cd 
+sudo dpkg -i Downloads/steam_latest.deb 
+sudo dpkg -i Downloads/discord-0.0.10.deb 
+htop
+killall discord
+killall Discord
+ls /dev/
+code .
+code workspace/messages/
+sudo apt-get install dconf-tools
+sudo apt --fix-broken-install
+apt --fix-broken install
+sudo apt --fix-broken install
+sudo apt-get install dconf-tools
+dconf-editor 
+bash -c  "$(wget -qO- https://git.io/vQgMr)"
+ll
+l
+ls Documents/
+ll Documents/
+rmdir Documents/
+ls Pictures/
+l Downloads/
+l
+ll
+lh
+llh
+tree .config/
+sudo apt install tree
+tree .config/
+tree .config/dconf/user 
+sudo dpkg -i Downloads/atom-amd64.deb 
+cd arduino-1.8.12/
+ls
+./install.sh 
+sudo ./install.sh 
+sudo ./arduino-linux-setup.sh 
+sudo ./arduino-linux-setup.sh $USER
+./arduino-linux-setup.sh $USER
+sudo reboot
+code
+sudo pm-suspend
+pm-suspend
+sudo apt install pm-utils
+sudo pm-suspend
+cd ../workspace/practic-pc/
+g++ server.cpp 
+g++ server.cpp
+g++ server.cpp -o server
+g++ client.cpp -o client
+./server 
+g++ server.cpp -o server
+./server 
+g++ server.cpp -o server
+./server 
+./client 
+./server 
+g++ server.cpp -o server
+./server 
+g++ server.cpp -o server
+./server 
+g++ server.cpp -o server
+./server 
+ps -aux | grep server
+./server 
+netstat -an
+sudo apt install net-tools
+netstat -an
+netstat -an | grep LISTENING
+./server 
+g++ server.cpp -o server
+./server 
+g++ server.cpp -o server
+./server 
+netstat -an | grep LISTENING
+netstat -an | grep 12345
+./server 
+netstat -tulpn | grep LISTEN
+./server 
+g++ server.cpp -o server
+./server 
+g++ server.cpp -o server
+./server 
+make
+zip 321cd_dan_duta_practic.zip server.cpp client.cpp Makefile 
+ls -lh
+sudo apt-get install prolog
+sudo add-apt-repository ppa:swi-prolog/stable
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:swi-prolog/stable
+sudo apt-get install swi-prolog
+unzip 
+cd ..
+unzip Tema3-PP.zip -d pp-tema3
+cd pp-tema3/
+ls
+prolog checker.pl 
+touch ./*
+ls
+ls -lh
+zip 321cd_dan_duta_tema3.zip ./*.pl 
+ls
+nvidia-smi
+cd ~/Downloads/
+sudo dpkg -i teams_1.3.00.5153_amd64.deb 
+cd ../workspace/practic-pc/
+./server 
+cd workspace/practic-pc/
+./client 
+g++ server.cpp -o server
+g++ client.cpp -o client
+./server 
+g++ server.cpp -o server
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+g++ client.cpp -o client
+./client 
+sudo shutdown\
+shutdown -c
+shutdow -h
+shutdown -h
+shutdown
+poweroff
+shutdown -c now
+shutdown -t now
+sudo poweroff
+sudo pm-suspend
+ps -aux | grep teamms
+ps -aux | grep teams
+teammmms
+teams
+sudo killall teams
+ps -aux | grep teams
+vimtutor
+sudo apt install vim-runtime
+vimtutor
+vimm
 vim
-rm -rf .vim*
-sudo rm -rf .vim*
-vim
-ls -la
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim .vimrc
-vim
-vim .vimrc 
-ping 192.168.1.180
-mkdir racheta
-cd racheta
-vim test.py
-python3 .
-python3 test.py
-ifconfig
-python3 test.py
-vim test.py
-apt install build-essential cmake vim python3-dev
-sudo apt install build-essential cmake vim python3-dev
+sudo apt install vim
+vimtutor
+cd ../
+git clone https://github.com/ranaroussi/yfinance.git
+cd yfinance/
 ls
-vim test.py 
-git init
-git add ./*
-git commit -m "init commit"
-git remote add origin https://github.com/danduta/2space.git
-git push -u origin master
+vim runtest.py 
+python runtest.py 
+pip install requests
+sudo apt install python-pip
+pip install requests
+python runtest.py 
+pip install pandas
+python runtest.py 
+pip install multitasking
+python runtest.py 
+pip install lxml
+python runtest.py 
+cd ~/Downloads/
 ls
-vim .vimrc
-vim
-cd .vim/bundle/YouCompleteMe/
-python3 install.py --clangd-completer
+tar --help
+mkdir postman
+cd postman/
+tar -xvf ../Postman-linux-x64-7.25.0.tar.gz 
+ls
+ls Postman/
+cd Postman/
+ls
+ls Postman 
+ls Postman/
+ls Postman 
+./Postman 
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim ~/.vimrc
 vim
 cd
 vim .vimrc 
 vim
-vim pc-tema2/
-vim pc-tema2/message.cpp 
 vim .vimrc 
-vim .vim/.ycm_extra_conf.py
-$ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sudo apt install build-essential cmake vim python3-dev
+cd .vim/bundle/YouCompleteme/
+ls
+./install.py --clang-complete
+git submodule update --init --recursive
+./install.py --clang-complete
+cd ~/workspace/
+ls
+cd messages/
+vim server.cpp 
+vim server.cpp
+popd
+cd ~/.vim/bundle/YouCompleteme/
+python3 install.py --all
+python3 install.py --clangd-completer
+pushd ~/workspace/messages/
+vim server.cpp 
+popd
+ll
+python3 run_tests.py 
+sudo pip install flake8
+python3 run_tests.py 
+pip install flake8
+python3 run_tests.py 
+sudo python3 run_tests.py 
+pip3 install flake8
+sudo apt install python3-pip
+python3 run_tests.py 
+pip3 install flake8
+python3 run_tests.py 
+./install.py --clangd-completer
+vim ~/workspace/messages/server.cpp 
+vim ~/.vimrc 
+sudo apt-get install clangd-9
+./install.py --clangd-completer
+vim
+vim ~/.vimrc 
+cd Downloads/
+tar -xvf clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz 
+ls
+ll
+ll clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04
+ll clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/
+ll clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang-10 
+clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang-10 
+clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang++
+clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang
+clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/cland
+clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clangd
+find clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clangd
+pwd
+vim ~/.vimrc 
+vim ~/workspace/messages/server.cpp 
+cd ~
+mkdir ycm_build
+cd ycm_build
+cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+cmake --build . --target ycm_core --config Release
+vim ~/.vimrc 
+ls /home/danilao/Downloads/clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clangd
+/home/danilao/Downloads/clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clangd
+cmake --build . --target ycm_core --config Release
+vim
+htop
+./install.py --all
+vim ~/workspace/messages/server.cpp 
+clangd-9 --version
+./install.py --clangd-completer
+clangd-9 
+./install.py --clangd-completer
+sudo apt-get install go xbuild node npm
+sudo apt-get install go
+vim install.py 
+./install.py --all
+python install.py
+python3 install.py
+sudo apt-get install mono-complete
+python3 install.py --clangd-completer
+sudo apt purge python-openssl
+sudo apt install python-openssl
+vim ~/workspace/messages/server.cpp 
+python3 install.py --all
+python3 install.py --clang-completer
+vim ~/workspace/messages/server.cpp 
+ls
+ll
+./run_tests.py 
+python3 ./run_tests.py 
+pip3 install pytest
+python3 ./run_tests.py 
+pip3 install hamcrest
+python3 install.py --clang-completer
+python3 install.py --clangd-completer
+python3 install.py --clang-completer
+vim
+ycmd
+sudo apt install ycmd
+ycmd
+vim
+python3 install.py --help
+python3 install.py --clang-completer --clang-tidy
+vim
+sudo apt-get install cmake
+cd ..
+rm -rf ./YouCompleteme
+cd YouCompleteMe/
+python3 install.py --clang-completer
+vim
+vim ~/workspace/messages/server.cpp 
+vim
+vim ~/workspace/messages/server.cpp 
+vim ~/.vimrc 
+vim ~/workspace/messages/server.cpp 
+vim ~/.vimrc 
+vim
+vim ~/.vimrc 
+vim
+vim ~/workspace/messages/server.cpp 
+cd
+ls .vim/bundle/vim-cpp-enhanced-highlight/
+ls .vim/bundle/vim-cpp-enhanced-highlight/after/
+ls .vim/bundle/vim-cpp-enhanced-highlight/after/syntax/
+ls .vim/bundle/vim-cpp-enhanced-highlight/after/syntax/cpp.vim 
+cp .vim/bundle/vim-cpp-enhanced-highlight/after/syntax/c* .vim/after/syntax
+mkdir .vim/after/syntax
+cp .vim/bundle/vim-cpp-enhanced-highlight/after/syntax/c* .vim/after/syntax
+vim
+vim ~/workspace/messages/server.cpp 
+vim ~/.vimrc 
+vim ~/workspace/messages/server.cpp 
+vim ~/.vimrc 
+vim
+vim ~/workspace/messages/server.cpp 
+vim .vimrc 
+vim ~/workspace/messages/server.cpp 
+vim .vimrc 
+vim ~/workspace/messages/server.cpp 
+vim .vimrc 
+vim ~/workspace/messages/server.cpp 
+vim ~/workspace/messages/include/utils.h 
+vim ~/workspace/messages/include/message.h 
+vim ~/workspace/messages/server.cpp 
+cd workspace/
+ls
+cd scripts/
+ls
+vim sensors.py 
+vim .vimr
+vim ~/.vimrc
+cd ../messages/
+vim server.cpp 
+vim ~/.vimrc 
+vim server.cpp 
+vim ~/.vimrc 
+vim server.cpp 
+vim ~/.vimrc 
+vim server.cpp 
+z YouCompleteMe
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 sudo apt-get install zsh
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+zsh
+which zsh
+chsh -s /usr/bin/zsh

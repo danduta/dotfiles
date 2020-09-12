@@ -11,105 +11,120 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sock.close
-
-# Last Substitute Search Pattern:
-~MSle0&"
+~MSle0~/min_refre
 
 # Last Substitute String:
-$'
+$
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1591474674,,"q"
+|2,0,1599926398,,"q"
 :wq
-|2,0,1591474669,,"wq"
+|2,0,1599817848,,"wq"
 :w
-|2,0,1591472656,,"w"
-:source %
-|2,0,1591472378,,"source %"
-:PluginInstall
-|2,0,1591472369,,"PluginInstall"
-:%s/"/'
-|2,0,1591472124,,"%s/\"/'"
-:%s/client/db
-|2,0,1591471858,,"%s/client/db"
-:%s/readables/sockets
-|2,0,1591471728,,"%s/readables/sockets"
-:wqa
-|2,0,1591470694,,"wqa"
-:source ~/.vimrc
-|2,0,1591470679,,"source ~/.vimrc"
-:source 
-|2,0,1591470675,,"source "
-:tabedit ~/.vimrc
-|2,0,1591470638,,"tabedit ~/.vimrc"
-:YcmRestartServer
-|2,0,1591470388,,"YcmRestartServer"
-:tabedit ~/.vim/.ycm_extra_conf.py
-|2,0,1591470347,,"tabedit ~/.vim/.ycm_extra_conf.py"
-:tabclose
-|2,0,1591469456,,"tabclose"
-:colorscheme gruvbox
-|2,0,1591463853,,"colorscheme gruvbox"
-:colorscheme gruvbox-material
-|2,0,1591463832,,"colorscheme gruvbox-material"
-:scriptnames
-|2,0,1591463789,,"scriptnames"
-:let colors_name
-|2,0,1591463784,,"let colors_name"
-:let NERDTreeBookmarksSort
-|2,0,1591463781,,"let NERDTreeBookmarksSort"
-:colorscheme
-|2,0,1591463376,,"colorscheme"
-:PluginInsta
-|2,0,1591462487,,"PluginInsta"
+|2,0,1599219867,,"w"
 :q!
-|2,0,1591460991,,"q!"
-:gru
-|2,0,1591460988,,"gru"
-:Q
-|2,0,1591371855,,"Q"
+|2,0,1597663827,,"q!"
+:wq!
+|2,0,1594044076,,"wq!"
+::q
+|2,0,1591877831,,":q"
+:qall
+|2,0,1591715367,,"qall"
+:PluginInstall
+|2,0,1591473934,,"PluginInstall"
+:qa
+|2,0,1590802922,,"qa"
+:source ~/.vimrc
+|2,0,1590802812,,"source ~/.vimrc"
+:tabedit ~/.vimrc
+|2,0,1590802801,,"tabedit ~/.vimrc"
+:source %
+|2,0,1590802736,,"source %"
+:'<,'>
+|2,0,1590802707,,"'<,'>"
+:YcmRestartServer
+|2,0,1590802019,,"YcmRestartServer"
+:q1
+|2,0,1590801961,,"q1"
+:q!1
+|2,0,1590801930,,"q!1"
+:colorscheme dracula
+|2,0,1590801678,,"colorscheme dracula"
+:colorscheme elflord
+|2,0,1590801675,,"colorscheme elflord"
+:colorscheme gotham
+|2,0,1590801667,,"colorscheme gotham"
+:colorscheme deep-space
+|2,0,1590801656,,"colorscheme deep-space"
+:colorscheme desert
+|2,0,1590801650,,"colorscheme desert"
+:colorscheme blue
+|2,0,1590801642,,"colorscheme blue"
+:colorscheme archery
+|2,0,1590801636,,"colorscheme archery"
+:colorscheme OceanicNextLight
+|2,0,1590801628,,"colorscheme OceanicNextLight"
+:colorscheme atom
+|2,0,1590801618,,"colorscheme atom"
+:set laststatus=2
+|2,0,1590801589,,"set laststatus=2"
+:PluginList
+|2,0,1590801562,,"PluginList"
+:colorscheme solarized8_high
+|2,0,1590801519,,"colorscheme solarized8_high"
+::wq
+|2,0,1590801129,,":wq"
+:YcmCompleter FixIt
+|2,0,1590800556,,"YcmCompleter FixIt"
+:YcmCompleter GetDocImprecise
+|2,0,1590800539,,"YcmCompleter GetDocImprecise"
+:set cul!
+|2,0,1590800468,,"set cul!"
+:colorscheme default
+|2,0,1590800444,,"colorscheme default"
+:RainbowToggle
+|2,0,1590800434,,"RainbowToggle"
+:set lazyredraw
+|2,0,1590800425,,"set lazyredraw"
+:set ttyfast
+|2,0,1590800407,,"set ttyfast"
+:lazyredraw
+|2,0,1590800359,,"lazyredraw"
+:lazyredraaw
+|2,0,1590800357,,"lazyredraaw"
+:nocursorline
+|2,0,1590800352,,"nocursorline"
+:colorscheme gruvbox
+|2,0,1590800219,,"colorscheme gruvbox"
+:source 
+|2,0,1590800182,,"source "
+:colorscheme alduin
+|2,0,1590800141,,"colorscheme alduin"
+:let g:rainbow_active = 1
+|2,0,1590800135,,"let g:rainbow_active = 1"
+:tabedit client.cpp
+|2,0,1590800131,,"tabedit client.cpp"
+:colorscheme afterglow
+|2,0,1590800079,,"colorscheme afterglow"
+:tabedit ~/workspace/messages/server.cpp
+|2,0,1590799425,,"tabedit ~/workspace/messages/server.cpp"
+:tabedit ~/workspace/Tem
+|2,0,1590799410,,"tabedit ~/workspace/Tem"
+:tabedit ~/workspace/Tema3-PP.zip
+|2,0,1590799405,,"tabedit ~/workspace/Tema3-PP.zip"
+:ww
+|2,0,1590799372,,"ww"
+:colorscheme darkblue
+|2,0,1590799080,,"colorscheme darkblue"
 
 # Search String History (newest to oldest):
-?/sock.close
-|2,1,1591472497,47,"sock.close"
-?/jedi
-|2,1,1591472355,47,"jedi"
-?/shutdown
-|2,1,1591472233,47,"shutdown"
-?/i++
-|2,1,1591472189,47,"i++"
-? "
-|2,1,1591472124,,"\""
-? client
-|2,1,1591471858,,"client"
-?/sockets
-|2,1,1591471742,47,"sockets"
-? readables
-|2,1,1591471728,,"readables"
-?/Plugin
-|2,1,1591470649,47,"Plugin"
-?/client_data
-|2,1,1591470352,47,"client_data"
-?/def Settings
-|2,1,1591470319,47,"def Settings"
-?/def Set
-|2,1,1591470241,47,"def Set"
-?/gruv
-|2,1,1591463601,47,"gruv"
-?/colorscheme
-|2,1,1591463558,47,"colorscheme"
-?/set
-|2,1,1591463493,47,"set"
-?/nmap
-|2,1,1591462839,47,"nmap"
-? \<line\>
-|2,1,1591462814,,"\\<line\\>"
-?/color
-|2,1,1591462715,47,"color"
+?/u
+|2,1,1599215683,47,"u"
+?/min_refre
+|2,1,1591877855,47,"min_refre"
 ? @$
-|2,1,1591372353,,"@$"
+|2,1,1590801085,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -118,474 +133,662 @@ $'
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	Plugin 'file:///home/gmarik/path/to/plugin'
-|3,0,0,1,1,0,1591372357,"Plugin 'file:///home/gmarik/path/to/plugin'"
-""1	LINE	0
-	dd
-|3,1,1,1,1,0,1591472589,"dd"
+"0	CHAR	0
+	, action="store", type="int"
+|3,0,0,0,1,0,1599216142,", action=\"store\", type=\"int\""
+"1	LINE	0
+	print(options)
+	
+|3,0,1,1,2,0,1599219412,"print(options)",""
 "2	LINE	0
-	                    )
-|3,0,2,1,1,0,1591472300,"                    )"
+	    exit()
+|3,0,2,1,1,0,1599219410,"    exit()"
 "3	LINE	0
-	                        i++
-|3,0,3,1,1,0,1591472191,"                        i++"
+	    parser.print_help()
+|3,0,3,1,1,0,1599219409,"    parser.print_help()"
 "4	LINE	0
-	while True:
-	    r, _, _ = select.select(sockets, [], [])
-|3,0,4,1,2,0,1591471877,"while True:","    r, _, _ = select.select(sockets, [], [])"
+	if len(args) != 1:
+|3,0,4,1,1,0,1599219409,"if len(args) != 1:"
 "5	LINE	0
-	    # db, addr = s.accept()
-	    # while True:
-	    #     content = db.recv(32)
-	
-	    #     if len(content) == 0:
-	    #         break
-	    #     else:
-	    #         print(content)
-	
-	    # print("Closing..")
-	    # db.close()
-	
-|3,0,5,1,12,0,1591471876,"    # db, addr = s.accept()","    # while True:","    #     content = db.recv(32)","","    #     if len(content) == 0:","    #         break","    #     else:","    #         print(content)","","    # print(\"Closing..\")","    # db.close()",""
+	print(args)
+|3,0,5,1,1,0,1599219287,"print(args)"
 "6	LINE	0
-	            else:
-|3,0,6,1,1,0,1591471825,"            else:"
+	print(args)
+	if len(args) < 4:
+|3,0,6,1,2,0,1599219283,"print(args)","if len(args) < 4:"
 "7	LINE	0
-	:w
-|3,0,7,1,1,0,1591470736,":w"
+	print(len(options))
+|3,0,7,1,1,0,1599219078,"print(len(options))"
 "8	LINE	0
-	Plugin 'davidhalter/jedi-vim'
-|3,0,8,1,1,0,1591470697,"Plugin 'davidhalter/jedi-vim'"
+	import argparse
+|3,0,8,1,1,0,1599218966,"import argparse"
 "9	LINE	0
-	import time
-|3,0,9,1,1,0,1591470501,"import time"
-"q	CHAR	0
-	
-|3,0,26,0,1,0,1591472743,""
-"-	CHAR	0
-	t
-|3,0,36,0,1,0,1591472257,"t"
+	    return
+|3,0,9,1,1,0,1599218923,"    return"
+""-	CHAR	0
+	4
+|3,1,36,0,1,0,1599740229,"4"
 
 # File marks:
-'0  1  0  ~/.vimrc
-|4,48,1,0,1591474674,"~/.vimrc"
-'1  13  35  ~/.bash_aliases
-|4,49,13,35,1591474669,"~/.bash_aliases"
-'2  1  0  ~/.vimrc
-|4,50,1,0,1591474642,"~/.vimrc"
-'3  12  23  ~/.bash_aliases
-|4,51,12,23,1591474390,"~/.bash_aliases"
-'4  12  23  ~/.bash_aliases
-|4,52,12,23,1591474390,"~/.bash_aliases"
-'5  99  0  ~/.zshrc
-|4,53,99,0,1591473980,"~/.zshrc"
-'6  1  0  ~/Downloads/.zshrc
-|4,54,1,0,1591473970,"~/Downloads/.zshrc"
-'7  1  0  ~/Downloads/.zshr
-|4,55,1,0,1591473967,"~/Downloads/.zshr"
-'8  1  0  ~/workspace/racheta/test.py
-|4,56,1,0,1591472744,"~/workspace/racheta/test.py"
-'9  74  17  ~/workspace/racheta/test.py
-|4,57,74,17,1591472736,"~/workspace/racheta/test.py"
+'0  1  0  ~/workspace/scripts/sensors.py
+|4,48,1,0,1599926398,"~/workspace/scripts/sensors.py"
+'1  9  0  ~/Downloads/dan.duta/dan.duta.ovpn
+|4,49,9,0,1599817848,"~/Downloads/dan.duta/dan.duta.ovpn"
+'2  1  0  ~/.bash_aliases
+|4,50,1,0,1599817829,"~/.bash_aliases"
+'3  1  0  ~/.config/plank/dock2/settings
+|4,51,1,0,1599740460,"~/.config/plank/dock2/settings"
+'4  1  0  ~/.config/plank/dock2/settings
+|4,52,1,0,1599740399,"~/.config/plank/dock2/settings"
+'5  1  13  ~/.config/plank/dock2/settings
+|4,53,1,13,1599740235,"~/.config/plank/dock2/settings"
+'6  1  13  ~/.config/plank/dock2/settings
+|4,54,1,13,1599740235,"~/.config/plank/dock2/settings"
+'7  1  11  ~/.config/plank/dock2/settings
+|4,55,1,11,1599740213,"~/.config/plank/dock2/settings"
+'8  1  11  ~/.config/plank/dock2/settings
+|4,56,1,11,1599740213,"~/.config/plank/dock2/settings"
+'9  1  11  ~/.config/plank/dock2/settings
+|4,57,1,11,1599740213,"~/.config/plank/dock2/settings"
 
 # Jumplist (newest first):
--'  1  0  ~/.vimrc
-|4,39,1,0,1591474674,"~/.vimrc"
--'  13  35  ~/.bash_aliases
-|4,39,13,35,1591474669,"~/.bash_aliases"
--'  13  35  ~/.bash_aliases
-|4,39,13,35,1591474669,"~/.bash_aliases"
+-'  1  0  ~/workspace/scripts/sensors.py
+|4,39,1,0,1599926398,"~/workspace/scripts/sensors.py"
+-'  9  0  ~/Downloads/dan.duta/dan.duta.ovpn
+|4,39,9,0,1599817848,"~/Downloads/dan.duta/dan.duta.ovpn"
+-'  9  0  ~/Downloads/dan.duta/dan.duta.ovpn
+|4,39,9,0,1599817848,"~/Downloads/dan.duta/dan.duta.ovpn"
+-'  1  0  ~/Downloads/dan.duta/dan.duta.ovpn
+|4,39,1,0,1599817835,"~/Downloads/dan.duta/dan.duta.ovpn"
+-'  1  0  ~/Downloads/dan.duta/dan.duta.ovpn
+|4,39,1,0,1599817835,"~/Downloads/dan.duta/dan.duta.ovpn"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474652,"~/.bash_aliases"
+|4,39,1,0,1599817829,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474652,"~/.bash_aliases"
--'  1  0  ~/.vimrc
-|4,39,1,0,1591474642,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1591474642,"~/.vimrc"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
--'  12  23  ~/.bash_aliases
-|4,39,12,23,1591474390,"~/.bash_aliases"
+|4,39,1,0,1599817829,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
+|4,39,1,0,1599817829,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1591474366,"~/.bash_aliases"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  99  0  ~/.zshrc
-|4,39,99,0,1591473980,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591473972,"~/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshrc
-|4,39,1,0,1591473970,"~/Downloads/.zshrc"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
--'  1  0  ~/Downloads/.zshr
-|4,39,1,0,1591473967,"~/Downloads/.zshr"
+|4,39,1,0,1599817829,"~/.bash_aliases"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740460,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  0  ~/.config/plank/dock2/settings
+|4,39,1,0,1599740399,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  13  ~/.config/plank/dock2/settings
+|4,39,1,13,1599740235,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740213,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  1  11  ~/.config/plank/dock2/settings
+|4,39,1,11,1599740201,"~/.config/plank/dock2/settings"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
+-'  8  125  ~/huge_sv_file_generator.py
+|4,39,8,125,1599219976,"~/huge_sv_file_generator.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/.vimrc
-	*	1591474673	0
+> ~/workspace/scripts/sensors.py
+	*	1599926397	0
 	"	1	0
-	^	63	2
-	.	63	1
-	+	80	42
-	+	50	0
-	+	58	30
-	+	11	14
-	+	10	9
-	+	24	61
-	+	12	12
-	+	59	22
-	+	4	18
-	+	60	27
-	+	61	5
-	+	62	0
-	+	26	8
-	+	4	0
-	+	69	0
-	+	66	0
-	+	69	0
-	+	66	0
-	+	69	0
-	+	35	0
-	+	15	8
-	+	69	19
-	+	34	13
-	+	69	0
-	+	4	18
-	+	16	18
-	+	4	0
-	+	67	0
-	+	68	0
-	+	33	0
-	+	26	7
-	+	32	27
-	+	24	0
-	+	18	52
-	+	64	0
-	+	63	1
-	a	26	0
+	^	20	9
+	.	21	0
+	+	21	0
+
+> ~/Downloads/dan.duta/dan.duta.ovpn
+	*	1599817848	0
+	"	9	0
+	^	9	0
+	.	9	0
+	+	8	0
+	+	9	0
 
 > ~/.bash_aliases
-	*	1591474668	0
-	"	13	35
-	^	13	36
-	.	13	35
-	+	4	61
-	+	8	13
-	+	5	0
+	*	1599817823	0
+	"	1	0
+	.	3	0
+	+	10	92
+	+	12	21
+	+	14	90
+	+	14	70
+	+	2	60
+	+	6	0
+	+	10	0
 	+	12	0
-	+	11	8
-	+	12	23
-	+	13	35
+	+	14	0
+	+	15	0
+	+	5	0
+	+	3	0
+
+> ~/.config/plank/dock2/settings
+	*	1599740455	0
+	"	1	0
+	^	1	14
+	.	1	13
+	+	1	10
+	+	1	13
+
+> ~/huge_sv_file_generator.py
+	*	1599219976	0
+	"	8	125
+	^	8	126
+	.	8	125
+	+	1	14
+	+	2	0
+	+	39	47
+	+	39	31
+	+	39	44
+	+	1	6
+	+	38	20
+	+	4	32
+	+	39	9
+	+	39	17
+	+	45	0
+	+	39	105
+	+	40	89
+	+	41	76
+	+	48	7
+	+	48	20
+	+	50	36
+	+	51	17
+	+	42	120
+	+	49	0
+	+	48	0
+	+	51	1
+	+	53	8
+	+	51	58
+	+	51	54
+	+	52	0
+	+	37	0
+	+	48	9
+	+	48	15
+	+	25	4
+	+	10	16
+	+	10	11
+	+	10	15
+	+	24	0
+	+	27	31
+	+	35	28
+	+	30	37
+	+	7	15
+	+	24	19
+	+	25	5
+	+	27	5
+	+	30	9
+	+	35	5
+	+	8	115
+	+	9	42
+	+	29	42
+	+	9	92
+	+	33	30
+	+	34	0
+	+	22	0
+	+	13	87
+	+	21	7
+	+	20	25
+	+	19	63
+	+	18	0
+	+	11	0
+	+	12	12
+	+	23	0
+	+	36	0
+	+	6	0
+	+	4	0
+	+	9	93
+	+	48	0
+	+	48	16
+	+	48	13
+	+	39	115
+	+	40	127
+	+	41	112
+	+	48	0
+	+	46	0
+	+	8	100
+	+	9	75
+	+	8	100
+	+	9	75
+	+	8	101
+	+	9	76
+	+	19	60
+	+	32	46
+	+	17	22
+	+	29	40
+	+	9	91
+	+	8	125
 
 > ~/.zshrc
-	*	1591473980	0
-	"	99	0
+	*	1597751105	0
+	"	101	5
+	^	101	6
+	.	101	5
+	+	100	33
+	+	101	5
 
-> ~/Downloads/.zshrc
-	*	1591473968	0
-	"	1	0
+> /etc/rc.local
+	*	1597663987	0
+	"	1	39
+	^	1	40
+	.	2	0
+	+	1	6
+	+	2	0
 
-> ~/Downloads/.zshr
-	*	1591473966	0
-	"	1	0
-
-> ~/workspace/racheta/test.py
-	*	1591472743	0
-	"	1	0
-	^	73	18
-	.	73	17
-	+	3	34
-	+	24	0
-	+	5	0
-	+	21	0
-	+	7	14
-	+	9	30
-	+	10	19
-	+	12	8
-	+	11	22
-	+	13	11
-	+	9	0
-	+	19	14
-	+	11	31
-	+	24	0
-	+	52	23
-	+	54	44
-	+	55	0
-	+	3	34
-	+	5	29
-	+	5	0
+> ~/disable_audio_powersave.sh
+	*	1597663866	0
+	"	4	0
+	.	4	0
+	+	4	61
 	+	4	0
-	+	53	32
-	+	54	34
-	+	58	20
-	+	7	12
-	+	13	15
-	+	8	11
-	+	20	12
-	+	8	0
-	+	58	45
-	+	2	12
-	+	22	45
-	+	57	0
-	+	61	0
-	+	62	43
-	+	61	0
-	+	63	0
-	+	66	16
-	+	30	0
-	+	66	0
-	+	5	0
-	+	38	0
-	+	35	0
-	+	37	0
-	+	70	11
-	+	70	27
-	+	75	0
-	+	71	25
-	+	71	0
-	+	9	0
-	+	60	0
-	+	59	31
-	+	71	15
-	+	73	15
-	+	74	16
-	+	73	0
-	+	74	0
-	+	71	0
-	+	73	12
-	+	73	17
-
-> ~/workspace/racheta/[Vundle] Installer
-	*	1591470692	0
-	"	13	0
-	.	1	0
 	+	1	0
+	+	3	0
+	+	4	0
 
-> ~/.vim/.ycm_extra_conf.py
-	*	1591470381	0
-	"	204	0
-	^	204	0
-	.	204	0
-	+	210	12
-	+	207	7
-	+	206	0
-	+	201	12
-	+	204	0
+> /etc/init.d/disable_audio_powersave
+	*	1597663826	0
+	"	4	56
+	^	4	57
+	.	4	57
+	+	3	10
+	+	4	57
 
-> ~/workspace/racheta/NERD_tree_1
-	*	1591469574	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/workspace/racheta/test.ino
-	*	1591469447	0
+> /sys/module/snd_hda_intel/parameters/power_save_controller
+	*	1597663734	0
 	"	1	0
-
-> ~/workspace/racheta/NERD_tree_2
-	*	1591469340	0
-	"	4	4
+	^	1	1
 	.	1	0
 	+	1	0
+
+> /etc/resolv.conf
+	*	1597395098	0
+	"	1	0
+	^	17	18
+	.	17	17
+	+	20	0
+	+	17	17
+
+> /sys/module/snd_hda_intel/parameters/power_save
+	*	1597305119	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1594890478	0
+	"	75	0
+	^	13	0
+	.	13	0
+	+	77	47
+	+	46	0
+	+	50	0
+	+	53	0
+	+	50	19
+	+	1	3
+	+	51	59
+	+	53	0
+	+	51	117
+	+	24	0
+	+	10	76
+	+	8	3
+	+	9	3
+	+	10	3
+	+	23	0
+	+	53	4
+	+	54	0
+	+	53	44
+	+	51	0
+	+	66	0
+	+	56	0
+	+	53	5
+	+	55	10
+	+	56	0
+	+	15	12
+	+	6	17
+	+	33	17
+	+	37	0
+	+	19	8
+	+	36	4
+	+	50	0
+	+	17	27
+	+	51	5
+	+	35	5
+	+	50	5
+	+	51	4
+	+	53	3
+	+	21	19
+	+	22	17
+	+	17	0
+	+	18	45
+	+	18	52
+	+	59	30
+	+	27	0
+	+	26	30
+	+	13	0
+	i	18	42
+
+> ~/Downloads/dan.duta/authenticator_code.txt
+	*	1594119518	0
+	"	2	0
+	.	2	0
+	+	2	0
+
+> /etc/grafana/grafana.ini
+	*	1591877871	0
+	"	234	26
+	^	234	27
+	.	234	26
+	+	234	26
+
+> ~/.ycm_conf.py
+	*	1591715365	0
+	"	1	0
+	^	177	13
+	.	177	12
+	+	177	12
+
+> ~/workspace/arduino/test.ino
+	*	1591371671	0
+	"	8	0
 
 > ~/NERD_tree_1
-	*	1591463538	0
-	"	7	6
+	*	1591371665	0
+	"	11	4
 	.	1	0
 	+	1	0
 
-> ~/racheta/test.py
-	*	1591460283	0
+> ~/workspace/arduinote
+	*	1591371658	0
+	"	1	0
+
+> ~/workspace/messages/Makefile
+	*	1590802919	0
+	"	1	0
+
+> ~/workspace/messages/NERD_tree_2
+	*	1590802918	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/messages/NERD_tree_3
+	*	1590802917	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/messages/include/message.h
+	*	1590802914	0
+	"	1	0
+
+> ~/workspace/messages/server.cpp
+	*	1590802913	0
+	"	4	0
+	.	200	0
+	+	43	0
+	+	44	0
+	+	60	0
+	+	57	0
+	+	59	0
+	+	55	0
+	+	49	20
+	+	45	0
+	+	238	0
+	+	54	1
+	+	53	11
+	+	51	11
+	+	51	0
+	+	200	0
+
+> ~/workspace/messages/client.cpp
+	*	1590802895	0
+	"	19	36
+	^	7	38
+	.	7	37
+	+	90	0
+	+	7	37
+
+> ~/workspace/messages/NERD_tree_1
+	*	1590802846	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/scripts/.vimr
+	*	1590799288	0
+	"	1	0
+
+> ~/workspace/messages/include/utils.h
+	*	1590798622	0
+	"	46	0
+
+> /tmp/ycmd_42775_stderr_0zhter6m.log
+	*	1590796188	0
+	"	18	0
+
+> /tmp/ycmd_42775_stdout_mmzzttui.log
+	*	1590796183	0
+	"	1	0
+
+> ~/.vim/bundle/YouCompleteme/install.py
+	*	1590794177	0
 	"	50	0
-	^	3	0
-	.	4	0
-	+	22	17
-	+	9	34
-	+	4	0
 
-> ~/racheta/test.
-	*	1591460278	0
+> ~/.vim/bundle/YouCompleteme/[Vundle] Installer
+	*	1590793594	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/[Vundle] Installer
+	*	1590792413	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/yfinance/runtest.py
+	*	1590784527	0
 	"	1	0
 
-> ~/pc-tema2/message.cpp
-	*	1591371400	0
-	"	32	5
-	^	32	6
-	.	32	5
-	+	32	5
+> /tmp/tutor0YuC9O
+	*	1590784475	0
+	"	294	28
+	^	294	15
+	.	294	28
+	+	81	16
+	+	85	31
+	+	109	33
+	+	132	53
+	+	134	51
+	+	203	37
+	+	222	45
+	+	251	13
+	+	294	28
 
-> ~/pc-tema2/three_topics_payloads.json
-	*	1591371371	0
-	"	1	0
+> /tmp/tutorVmmszS
+	*	1590671674	0
+	"	32	0
+	.	9	0
+	+	8	29
+	+	8	98
+	+	8	158
+	+	8	160
+	+	8	170
+	+	8	241
+	+	8	313
+	+	8	315
+	+	8	380
+	+	8	449
+	+	8	517
+	+	8	519
+	+	8	585
+	+	8	650
+	+	8	679
+	+	8	759
+	+	8	790
+	+	9	0
