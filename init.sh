@@ -22,8 +22,3 @@ echo -e "\033[01;34m\n\t$(gcc --version)...\n\e[0m"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo -e "\e[0m\033[01;32m\n\tCLONING PRIVATE DOTFILES...\n\e[0m"
-
-cd ~
-git clone https://github.com/danduta/dotfiles
-cp -r dotfiles-priv/* .
-
