@@ -97,5 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/danilao/.bash_aliases
+source ~/.bash_aliases
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 nosave
