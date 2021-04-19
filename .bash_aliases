@@ -8,7 +8,9 @@ alias termkill="ps -aux | grep xterm | awk '{print }' | xargs -l kill -9"
 alias py="python"
 alias py3="python3"
 
-alias vpn="sudo openvpn --cd ~/Downloads/dan.duta --config ~/Downloads/dan.duta/dan.duta.ovpn"
+#alias vpn="sudo openvpn --cd ~/Downloads/dan.duta --config ~/Downloads/dan.duta/dan.duta.ovpn"
+alias vpn="~/vpn.sh"
+alias killvpn="sudo killall -9 openvpn"
 
 alias lsd="ls -dla */"
 
