@@ -61,10 +61,15 @@ Plugin 'preservim/nerdtree'
 Plugin 'sainnhe/gruvbox-material'
 Plugin 'itchyny/lightline.vim'
 " Plugin 'davidhalter/jedi-vim'
+Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'vim-python/python-syntax'
 
 call vundle#end()            " required
 
-colorscheme gruvbox
+set t_Co=256   " This is may or may not needed.
+
+set background=light
+colorscheme PaperColor
 
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
