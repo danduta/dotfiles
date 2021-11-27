@@ -103,7 +103,5 @@ source $ZSH/oh-my-zsh.sh
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
-screenfetch
-
 source ~/.bash_aliases
 
