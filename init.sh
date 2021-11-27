@@ -51,6 +51,7 @@ echo -e "\e[0m\033[01;32m\n\tINSTALLING ZSH...\n\e[0m"
 
 sudo apt-get install -y zsh
 ZSH=`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions --quiet
 
 vim_compiled=$(vim --version | grep "Compiled by $USER@$HOSTNAME" | wc -l)
 if [ $vim_compiled -gt 0 ]; then
@@ -64,7 +65,7 @@ echo -e "\e[0m\033[01;32m\n\tINSTALLING VIM...\n\e[0m"
 
 cp -r ~/dotfiles/.vim ~
 
-git clone https://github.com/vim/vim.git && cd vim
+git clone https://github.com/vim/vim.git --quiet && cd vim
 make distclean && make clean && sudo apt remove vim
 ./configure --enable-pythoninterp=yes --enable-python3interp=yes
 make && sudo make install
@@ -77,7 +78,7 @@ if [ $? != 0 ]; then
 fi
 
 if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim --quiet
 fi
 
 vim +PluginInstall +qall
